@@ -2,3 +2,5 @@ git hub.
 git commit -m "...."
 git push
 ciao
+righe nuove
+git add: metti i file nello stage
