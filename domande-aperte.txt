@@ -1,2 +1,15 @@
 Come funziona perfetamente i code space
 lista più completa dei comandi di git
+
+ad8e211 (HEAD -> main, origin/main, origin/HEAD) ho creato un file con 2 domande aperte
+c7dcffe ho fatto 3 modifiche
+91a3d40 ho aggiunto 2 righe in appunti lezione
+8c20ae5 ignora file di log
+a34dc67 ciao
+d008178 esercizio messaggi di commit
+d74edc5 Esercio 3 modulo 0
+fb70c2b prima versione della mia scheda personale
+de9ea49 Create appunti-lezione-03.txt
+6ab75a9 Aggiunte 4 righe
+ca681ac File aggiunto per provare i comandi di git
+95814e7 Initial commit
