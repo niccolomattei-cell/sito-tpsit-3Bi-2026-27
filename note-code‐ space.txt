@@ -1,0 +1,9 @@
+git --version: risposta: git version 2.55.0
+
+pwd: risposta: mi da la cartella corrente: /workspaces/sito-tpsit-3Bi-2026-27
+
+ls: risposta: elenco di file contenuti:  README.md              appunti-lezione-03.txt   bozze.txt            esercizio-status.txt        'note-code‐ space.txt'   scheda-personale.txt.txt
+ andata-e-ritorno.txt   appunti-lezione.txt      domande-aperte.txt   messaggi-di-commit.txt.txt   prova.log
+
+Su windows sarebbe stato diverso perchè le cartelle sono organizzate diversamente:
+c:\users....
