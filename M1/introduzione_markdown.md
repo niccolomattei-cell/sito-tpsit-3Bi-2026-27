@@ -74,3 +74,5 @@ public class Mio_programma {
 - [x] instalazion del programm
 - [x] prima esecuzione
 - [x] correzione errori
+
+---
