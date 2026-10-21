@@ -1,9 +1,0 @@
-file 01 è stato modificato è nello stage
-
-il file readme non è nello stage
-
-non trova il file
-
-con il commit solo il primo file entrerà
-
-per far entrare gli altri devo fare git add
