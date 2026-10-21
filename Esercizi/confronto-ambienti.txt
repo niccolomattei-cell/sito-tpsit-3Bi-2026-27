@@ -1,0 +1,15 @@
+Necessità di configurare l'identità e l'autenticazione:
+Locale: Utilizza solitamente credenziali di dominio pre-configurate o account locali del laboratorio, con accesso immediato alle risorse di rete interne.
+Cloud: Richiede obbligatoriamente l'autenticazione tramite account esterno  e la gestione dei token di sessione.
+
+Comportamento quando la rete non è disponibile:
+Locale: Pienamente funzionante per tutti i file e i software installati localmente; l'assenza di rete limita solo l'accesso alle risorse condivise esterne.
+Cloud: Interruzione totale dell'operatività; l'interfaccia web e i servizi di esecuzione remota diventano inaccessibili senza connettività attiva.
+
+Consumo di quota:
+Locale: Sfrutta l'hardware della macchina fisica, senza limiti di quota o consumo di risorse cloud computazionali.
+Cloud: Soggetto a limiti di quota sul tempo di esecuzione, sulla RAM e sullo spazio di archiviazione assegnati dal piano della piattaforma.
+
+Tempo di avvio:
+Locale: Richiede l'accensione fisica della macchina e il caricamento del sistema operativo e degli strumenti locali (tempo medio di circa 2-3 minuti).
+Cloud: Istantaneo tramite apertura del browser, sebbene richieda l'inizializzazione del container o del notebook remoto (pochi secondi per la connessione).

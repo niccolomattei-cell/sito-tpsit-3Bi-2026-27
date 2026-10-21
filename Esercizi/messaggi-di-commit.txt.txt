@@ -1,0 +1,6 @@
+1. elenco delle modifiche
+2. il messaggio deve avere senso
+3. è stato risolto il bug della versione precedente
+4. versione del 17/9 con le seguenti modifiche….
+5. ho cambiato le cose x y z nella pagina x e gli appunti nella y
+6. ho risolto il problema
