@@ -56,3 +56,12 @@ Le pagine sono scritte a mano, senza generatori automatici e senza librerie di t
 Niccolò Mattei, classe 3Bi, Istituto Tecnico Tecnologico "G. Marconi" di Rovereto.
 Lavoro svolto per il corso di Laboratorio di TPSIT, anno scolastico 2026-2027,
 docente Andrea Trentini.
+
+## Navigazione tra cartelle
+
+[Appunti Markdown](M1/introduzione_markdown.md)
+
+[Appunti scheda](M1_es/appunti/Es2/scheda.md)
+
+[Orario](M1_es/appunti/Es4/orario.md)
+

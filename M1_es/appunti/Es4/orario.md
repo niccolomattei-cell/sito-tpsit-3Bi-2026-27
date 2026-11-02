@@ -11,3 +11,5 @@
 | 8 | casa | casa | TPIST (lab) | casa | Autonomia |
 | 9 | casa | casa | Italiano | casa | Informatica (lab) |
 | 10 | casa | casa | Ingles | casa | Informatica (lab) |
+
+[Torna ad Readme](../../../README.md)
