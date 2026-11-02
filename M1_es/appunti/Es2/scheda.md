@@ -40,3 +40,12 @@ Tutti voi in questo posto eravate trattati allo stesso modo. Qui, ogni giocatore
 - [ ] C
 
 ![Immagine meme](../../../M1/immagini/Meme_ram.jpeg)
+
+## Confronto fra le due rese
+In git hub la tabella si vede con i bordi
+
+La casella di spunta in git hub si vede come nelle pagine web
+
+In git hub l'immagine non si vede perchè ho messo una lettera
+
+maiuscola e il nome del file e il nome del file è tutto minuscolo.
