@@ -25,5 +25,18 @@ Tutti voi in questo posto eravate trattati allo stesso modo. Qui, ogni giocatore
 ### **Copertina della S1 di Squid Games**
 ![Copertina S1](https://pad.mymovies.it/filmclub/2022/12/085/locandina.jpg)
 
-
 [Torna ad Readme](../../../README.md)
+
+---
+
+#### Per es 8
+
+| 1 |  2  |  3 |
+|---:|---:|---:|
+|A|B|C|
+
+- [ ] A
+- [x] B
+- [ ] C
+
+![Immagine meme](../../../M1/immagini/Meme_ram.jpeg)
