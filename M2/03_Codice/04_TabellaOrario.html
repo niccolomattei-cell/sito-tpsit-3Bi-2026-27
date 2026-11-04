@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Orario di occupazione - Laboratorio di informatica</title>
+</head>
+<body>
+  <h1>Orario di occupazione del laboratorio</h1>
+
+  <p>
+    La tabella riporta le classi presenti in aula 214 nelle ore del mattino.
+    Le ore contrassegnate come libere possono essere prenotate dai docenti
+    entro le 12:00 del giorno precedente.
+  </p>
+
+  <table>
+    <caption>Occupazione dell'aula 214 dal lunedì al venerdì, mattino</caption>
+
+    <thead>
+      <tr>
+        <th scope="col">Ora</th>
+        <th scope="col">Lunedì</th>
+        <th scope="col">Martedì</th>
+        <th scope="col">Mercoledì</th>
+        <th scope="col">Giovedì</th>
+        <th scope="col">Venerdì</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th scope="row">8:00 - 9:00</th>
+        <td>3Bi - TPSIT</td>
+        <td>4Ai - Sistemi e reti</td>
+        <td>libero</td>
+        <td>5Ai - Informatica</td>
+        <td>3Ai - Informatica</td>
+      </tr>
+      <tr>
+        <th scope="row">9:00 - 10:00</th>
+        <td>3Bi - TPSIT</td>
+        <td>4Ai - Sistemi e reti</td>
+        <td>3Ai - TPSIT</td>
+        <td>5Ai - Informatica</td>
+        <td>3Ai - Informatica</td>
+      </tr>
+      <tr>
+        <th scope="row">10:00 - 10:15</th>
+        <td colspan="5">Intervallo: il laboratorio resta chiuso</td>
+      </tr>
+      <tr>
+        <th scope="row">10:15 - 11:15</th>
+        <td>4Bi - Informatica</td>
+        <td>libero</td>
+        <td>3Ai - TPSIT</td>
+        <td>3Bi - Informatica</td>
+        <td>5Bi - TPSIT</td>
+      </tr>
+      <tr>
+        <th scope="row">11:15 - 12:15</th>
+        <td>4Bi - Informatica</td>
+        <td>5Bi - Sistemi e reti</td>
+        <td>libero</td>
+        <td>3Bi - Informatica</td>
+        <td>5Bi - TPSIT</td>
+      </tr>
+      <tr>
+        <th scope="row">12:15 - 13:00</th>
+        <td>libero</td>
+        <td>5Bi - Sistemi e reti</td>
+        <td>4Ai - Informatica</td>
+        <td>libero</td>
+        <td>libero</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="6">
+          Ore pomeridiane, dalle 14:00 alle 17:00: accesso solo su prenotazione.
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Come si legge questa tabella</h2>
+
+  <p>
+    Le celle della prima riga e quelle della prima colonna sono intestazioni,
+    marcate con <code>th</code>. L'attributo <code>scope</code> dichiara se
+    l'intestazione vale per la colonna o per la riga: un lettore di schermo lo
+    usa per annunciare "Mercoledì, 10:15 - 11:15, 3Ai - TPSIT" invece del solo
+    contenuto della cella, che fuori contesto non direbbe nulla.
+  </p>
+</body>
+</html>

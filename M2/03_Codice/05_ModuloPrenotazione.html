@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Prenotazione di una postazione - Laboratorio di informatica</title>
+</head>
+<body>
+  <h1>Prenotazione di una postazione</h1>
+
+  <p>
+    Il modulo serve a richiedere l'uso del laboratorio nelle ore pomeridiane.
+    In questo modulo del corso il modulo di inserimento dati viene
+    <strong>costruito ma non inviato</strong>: l'elemento <code>form</code> non
+    ha l'attributo <code>action</code>. Premendo il pulsante, il browser
+    controlla prima i campi obbligatori e mostra il proprio avviso se ne trova
+    uno vuoto; se sono tutti compilati ricarica questa stessa pagina e i dati
+    digitati si perdono, senza raggiungere alcun destinatario.
+    L'invio dei dati a un servizio remoto è argomento del modulo M8.
+  </p>
+
+  <form>
+    <fieldset>
+      <legend>Dati di chi richiede</legend>
+
+      <p>
+        <label for="cognome">Cognome e nome</label><br>
+        <input type="text" id="cognome" name="cognome" size="40" required>
+      </p>
+
+      <p>
+        <label for="posta">Indirizzo di posta d'istituto</label><br>
+        <input type="email" id="posta" name="posta" size="40" required>
+      </p>
+
+      <p>
+        <label for="classe">Classe</label><br>
+        <select id="classe" name="classe">
+          <option value="3ai">3Ai</option>
+          <option value="3bi">3Bi</option>
+          <option value="4ai">4Ai</option>
+          <option value="4bi">4Bi</option>
+          <option value="5ai">5Ai</option>
+          <option value="5bi">5Bi</option>
+        </select>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Prenotazione richiesta</legend>
+
+      <p>
+        <label for="giorno">Giorno</label><br>
+        <input type="date" id="giorno" name="giorno" required>
+      </p>
+
+      <p>Fascia oraria</p>
+      <p>
+        <input type="radio" id="fascia-prima" name="fascia" value="14-15" checked>
+        <label for="fascia-prima">14:00 - 15:00</label><br>
+        <input type="radio" id="fascia-seconda" name="fascia" value="15-16">
+        <label for="fascia-seconda">15:00 - 16:00</label><br>
+        <input type="radio" id="fascia-terza" name="fascia" value="16-17">
+        <label for="fascia-terza">16:00 - 17:00</label>
+      </p>
+
+      <p>
+        <label for="postazioni">Numero di postazioni</label><br>
+        <input type="number" id="postazioni" name="postazioni" min="1" max="24" value="1">
+      </p>
+
+      <p>
+        <label for="motivo">Motivo della richiesta</label><br>
+        <textarea id="motivo" name="motivo" rows="4" cols="40"></textarea>
+      </p>
+
+      <p>
+        <input type="checkbox" id="regolamento" name="regolamento" required>
+        <label for="regolamento">Ho letto il regolamento del laboratorio</label>
+      </p>
+    </fieldset>
+
+    <p>
+      <button type="submit">Invia la richiesta</button>
+      <button type="reset">Azzera il modulo</button>
+    </p>
+  </form>
+
+  <h2>Che cosa guardare in questo esempio</h2>
+
+  <p>
+    Ogni campo ha due identificativi distinti e non intercambiabili.
+    L'attributo <code>id</code> serve all'etichetta: il valore di
+    <code>for</code> nella <code>label</code> deve coincidere con l'<code>id</code>
+    del campo, e si verifica facendo clic sull'etichetta, che deve portare il
+    cursore dentro il campo. L'attributo <code>name</code> è invece il nome con
+    cui il dato verrà trasmesso quando, nel modulo M8, l'invio sarà attivato.
+  </p>
+
+  <p>
+    I tre pulsanti di scelta della fascia oraria condividono lo stesso
+    <code>name</code> e per questo sono alternativi fra loro, mentre i loro
+    <code>id</code> sono tutti diversi perché ciascuno ha la propria etichetta.
+  </p>
+</body>
+</html>
