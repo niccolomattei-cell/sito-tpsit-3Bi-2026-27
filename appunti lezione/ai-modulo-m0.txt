@@ -1,0 +1,50 @@
+1. error: failed to push some refs to 'https:-/github.com/mariorossi/sito-tpsit.git'
+hint: Updates were rejected because the remote contains work that you do not have lo‐
+cally.
+
+Questo errore si verifica quando provi a fare il git push ma il repository remoto contiene dei file che non sono presenti in locale
+
+rimedio: 
+git pull
+
+----------------------------------------------------------------------------------------------------------------------------------------
+2. Author identity unknown
+--* Please tell me who you are.
+
+Questo messaggio appare perché Git non conosce i miei dati, nome email
+
+Rimedio:
+git config --global user.name
+git config --global user.email
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+3. warning: LF will be replaced by CRLF in appunti-lezione-01.txt.
+The file will have its original line endings in your working directory
+
+Questo messaggio è solo un avviso che riguarda il modo con cui sono gestiti gli accapo 
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+git commit -m "Ho aggiunto al repository il file argomento-sito.txt con l'argomento scelto per il
+sito."
+
+git commit -m "Nel file appunti-lezione-01.txt ho corretto due comandi che avevo trascritto male
+e ho aggiunto la sezione sul .gitignore."
+
+git commit -m" Ho aggiunto il file .gitignore e ho tolto dalla cartella principale un file di
+registro che non doveva starci."
+
+
+
+
+
+
+
