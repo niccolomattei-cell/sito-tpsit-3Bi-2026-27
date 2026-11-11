@@ -1,6 +1,5 @@
-
 | Ore | Lunedì | Martedì | Mercoledì | Giovedì | Venerd | 
-| --- | --- | ---| --- | --- | --- |
+| --- | ---: | ---:| ---: | ---: | ---: |
 | 1 | Iformatica (lab) | Italiano | Telecomunicazioni | Inglese | Italiano |
 | 2 | Informatica (lab) | Storia | Telecomunicazioni | Matematica | Italiano
 | 3 | Mattematica | Retti (lab) | Matematica | Informatica (lab) | TPIST (teoria) |
@@ -11,5 +10,3 @@
 | 8 | casa | casa | TPIST (lab) | casa | Autonomia |
 | 9 | casa | casa | Italiano | casa | Informatica (lab) |
 | 10 | casa | casa | Ingles | casa | Informatica (lab) |
-
-[Torna ad Readme](../../../README.md)
