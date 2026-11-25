@@ -1,4 +1,7 @@
- <body>
+<html>
+
+<head></head>
+<body>
  
  <h2> Le combinazioni di carte con cui poi vincere</h2>
     <p> Le combinazioni di carte vincenti sono le seguenti: coppia, doppia coppia, tris, scala, colore, full, poker, scala colore e scala reale. La scala reale è la combinazione più alta possibile e consiste in una scala di cinque carte dello stesso seme che vanno dal 10 all'Asso.</p>
@@ -12,11 +15,80 @@
         <li>poker</li>
         <li>scala colore</li>
         <li>scala reale</li>
-<p><small>Le combinazioni sono ordinate dal valore più basso a quello più alto.</small></p>
-    </ol>
-    <img scr = "./immagini/coppia"alt="1000px" width="100px"
-    
-    <p> Questa è una coppia, per una coppia servono 2 carte dello stesso numero (poi fare anche le coppie delle figure)</p>
+<small>Le combinazioni sono ordinate dal valore più basso a quello più alto.</small>
 
 
- </body>
+
+
+<meta charset="UTF-8">
+<style>
+  table {
+    border-collapse: collapse; /* Unisce i bordi delle celle in una linea singola */
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black; /* Disegna la linea della griglia */
+    padding: 8px;            /* Aggiunge spazio interno al testo */
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2; /* Colore leggero per l'intestazione */
+  }
+  /*la tebella lo fatta io ma la parte dove si vedono le linne griglia me l'ha fatta l'ia*/
+</style>
+    <table>
+    <tr>
+      <th><img src="./immagini/Carta_singola" height="100px"></th>
+      <th>Carta alta, se nessuno ha niente si guarda chi ha la carta che vale di più</th>
+    </tr>
+    <tr>
+      <td><img src="./immagini/coppia.jpeg" height="100px"></td>
+      <td>Questa è una coppia, per una coppia servono 2 carte dello stesso numero (poi fare anche coppie delle figure)</td>
+    </tr>
+    <tr>
+      <td><img src="./immagini/doppia-coppia.jpeg" height="100px"></td>
+      <td>Questa è una doppia coppia, servono 2 coppie</td>
+    </tr>
+    <tr>
+      <td><img src="./immagini/tris.jpeg" height="100px"></td>
+      <td>Questo è un tris, per un tris servono 3 carte con lo stesso valore e 2 diverse</td>
+    </tr>
+    <tr>
+      <td><img src="./immagini/Sclala.jpeg" height="100px"></td>
+      <td>Questa è una scala, la scala si deve fare con la carte in sequenza</td>
+    </tr>
+    <tr>
+      <td><img src="./immagini/colore.jpeg" height="100px"></td>
+      <td>Questo è colore, si fa quando si hanno 4 carte diverse ma dello stesso seme</td>
+    </tr>
+    <tr>
+      <td><img src="./immagini/full..jpeg" height="100px"></td>
+      <td>Questo è un full, e quando si ha un tris e una coppia</td>
+    </tr>
+    <tr>
+      <td><img src="./immagini/poke.jpeg" height="100px"></td>
+      <td>questo è un poker, si fa quando si hanno 4 carte dello stesso numero </td>
+    </tr>
+    <tr>
+      <td><img src="./immagini/Scala colore.jpeg" height="100px"></td>
+      <td>Questa è una scala colore, si fa quando si hanno 5 carte dello stesso seme ma le carte devono essere in sequesnza</td>
+    </tr>
+    <tr>
+        <td><img src="./immagini/Scala reale.jpeg" height="100px"></td>
+        <td>Questa è una scala reale, si fa quandio hai cinque carte in sequenza dello stesso seme</td>
+    </tr>
+  </table>  
+  <br>
+
+  <a href="valore_delle_fish.html">Le combinazioni di carte con cui poi vincere</a>
+  <br>
+  <a href="index.html">Infomazioni principali</a> 
+  <br> 
+  <a href="diler.html">Regole del dealer e infomazioni</a>
+  <br>
+  <a href="Curiosita.html">Curiosita</a>
+
+
+
+</body>
+</html>
